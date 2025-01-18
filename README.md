@@ -5,14 +5,8 @@ Developed a group video call app using React and ZEGOCLOUD API, enabling seamles
 ## Project Overview
 
 **Technologies Used**:  
-- **Frontend**: React.js  
+- **Frontend**: React.js,TailwindCss,JavaScript
 - **Backend**: ZEGOCLOUD Video API
-
-**Timeline**:  
-- **Development Period**: 3rd September 2023 - 17th September 2023
-
-**Description**:  
-ZoomSphere is a video call application developed using React.js and ZEGOCLOUD's Video API. It provides seamless, high-quality group video conferencing with real-time screen sharing capabilities. The application supports multiple participants, enabling effective collaborative communication. Advanced media streaming and user-friendly controls have been integrated within a React framework to ensure smooth and reliable conferencing.
 
 ### Key Features:
 - Group Video Conferencing  
@@ -28,11 +22,32 @@ ZoomSphere is a video call application developed using React.js and ZEGOCLOUD's 
 To run the project locally on your machine, follow the steps below:
 
 ### 1. Clone the Repository
-
-To clone the project, run the following command in your terminal:
-
-```bash
-git clone <insert-repository-link-here>
-
+   To clone the project, run the following command in your terminal:
+    
+    ```bash
+    git clone <insert-repository-link-here>
 
 
+###2. Navigate to the Project Folder
+    Once the repository is cloned, move into the project directory:
+    
+    ```bash
+        cd zoomsphere
+
+###3. Install Dependencies
+    Run the following command to install the necessary dependencies:
+    
+    ```bash
+       npm install
+
+###4. Start the Application
+    After the dependencies are installed, start the application with:
+    
+    ```bash
+         npm start
+        
+### 5. Access the Application
+  Open your browser and go to the following URL to view the application:
+    
+    ```bash
+         http://localhost:3000
